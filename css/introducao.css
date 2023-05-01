@@ -1,0 +1,93 @@
+.introducao-1 {
+    background-color: var(--cor-2);
+    height: 60px;
+}
+
+.introducao-2 {
+    background-color: var(--cor-1);
+    height: 60px;
+}
+
+#frete {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--cor-1);
+    display: block;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+.titulo {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px; 
+    text-align: center;
+    padding: 15px;
+}
+
+.subtitulo {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: var(--cor-1);
+    position: relative;
+    margin: 30px;
+}
+
+.texto {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    color: var(--cor-1);
+    position: relative;
+    margin: 30px;
+    margin-top: 15px;
+}
+
+.bg-header {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    position: relative;
+    background: var(--cor-2);
+    opacity: 9;
+}
+
+.bg-header::before {
+    content: '';
+    background-image: url(../assets/wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+}
+
+@media (max-width: 750px) {
+    .titulo {
+        font-size: 26px;
+    }
+
+    #frete {
+        font-size: 20px;
+    }
+    
+    .subtitulo {
+        font-size: 45px;
+    }
+    
+    .texto {
+        font-size: 20px;
+    }
+}
