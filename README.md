@@ -5,8 +5,6 @@
 - HTML
 - CSS
 
-*Responsivo ✔️*
-
 ## 🎯 Objetivo
 
 - Desenvolver o projeto de acordo com o layout disponibilizado no figma.
