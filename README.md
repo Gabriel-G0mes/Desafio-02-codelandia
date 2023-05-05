@@ -5,7 +5,7 @@
 - HTML
 - CSS
 
-*Resposivo ✔️*
+*Responsivo ✔️*
 
 ## 🎯 Objetivo
 
